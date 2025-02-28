@@ -66,5 +66,3 @@ for i, title in enumerate(titles):
     print(title.text, views[i*2].text if i*2 < len(views) else "조회수 없음")
 # 드라이버 종료
 #driver.quit()
-
-#<span class="style-scope ytd-grid-video-renderer">조회수 16만회</span>
