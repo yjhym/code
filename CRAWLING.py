@@ -45,7 +45,4 @@ summ=soup.find("p", attrs={'class':"summary"})
 temperature=temp.text
 summary=summ.text
 driver.quit()
-f=open('Weather.txt', 'w')
-f.write(f"{name}의 {temperature}")
-f.write(summary)
-f.close()
+#10r
